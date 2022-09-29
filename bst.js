@@ -6,7 +6,7 @@ function insertNode() {
 
         if (!myMap.has(node) && myMap.size <= 7) {
 
-                if ((node > -2147483648 || node < 2147483648) && document.getElementById("key1").value == "") {
+                if (document.getElementById("key1").value == "") {
                         document.getElementById("key1").value = node;
                         myMap.set(node, 1);
                 }

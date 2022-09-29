@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queue Visualizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="queue.css">
+</head>
+
+<body>
+    <h1>Queue Implimentation</h1>
+    <div class="container">
+        <h2>How queue works</h2>
+        <p>The Queue is a linear data structure that is used to store the collection of objects. It is based on
+            First-In-First-Out (FIFO).The Queue data structure has the two most important operations that are enqueue
+            and dequeue. The
+            enqueue operation inserts
+            an element into the end of the queue and dequeue operation removes an element from the front of the queue.
+        </p>
+        <input type="text" placeholder="Enter element to add" id="text">
+        <!-- <div class="text1"> -->
+        <div class="container1">
+            <div id="waste"></div>
+            <div id="waste2"></div>
+
+            <input type="text1" class="elements" placeholder="Element 1" id="1" readonly>
+
+            <input type="text1" class="elements" placeholder="Element 2" id="2" readonly> 
+
+            <input type="text1" class="elements" placeholder="Element 3" id="3" readonly> 
+
+            <input type="text1" class="elements" placeholder="Element 4" id="4" readonly>
+
+            <input type="text1" class="elements" placeholder="Element 5" id="5" readonly>
+
+        </div>
+
+
+        <div>
+      <button class="button" id="button1" onclick="count()">Enqueue</button>
+    </div>
+    <div>
+      <button class="button" id="button2" onclick="count1()">Dequeue</button>
+    </div>
+  </div>
+    </div>
+
+    <script src="queue.js"></script>
+</body>
+
+</html>

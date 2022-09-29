@@ -1,0 +1,135 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0;
+    padding: 0;
+    background: url(https://cdn.wallpapersafari.com/98/5/3F8r1P.jpg);
+    background-size: cover;
+}
+
+h1 {
+    position: absolute;
+    left: 120px;
+    color: red;
+    padding: 0px 70px;
+    margin: 17px 304px;
+    border-radius: 15px;
+    text-align: center;
+}
+#button1{
+    color: black;
+    background-color: rgba(255, 255, 255, .8);
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    border: 4px solid purple;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 8px auto;
+    padding: 5px 10px;
+    width: 130px;
+    height: 50px;
+    font-size: 25px;
+    position: absolute;
+    top: 300px;
+    left: 360px;
+}
+#button1:hover {
+    background: orange;
+}
+#button2{
+    color: black;
+    background-color: rgba(255, 255, 255, .8);
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    border: 4px solid purple;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 8px auto;
+    padding: 5px 10px;
+    width: 130px;
+    height: 50px;
+    font-size: 25px;
+    position: absolute;
+    top: 240px;
+    left: 830px;
+}
+#button2:hover {
+    background:orange;
+}
+#button3{
+    color: black;
+    background-color: rgba(255, 255, 255, .8);
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    border: 4px solid purple;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 8px auto;
+    padding: 5px 10px;
+    width: 160px;
+    height: 50px;
+    font-size: 25px;
+    position: absolute;
+    top: 560px;
+    left: 800px;
+}
+#button3:hover {
+    background: orange;
+}
+#button4{
+    color: black;
+    background-color: rgba(255, 255, 255, .8);
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    border: 4px solid purple;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 8px auto;
+    padding: 5px 10px;
+    width: 230px;
+    height: 50px;
+    font-size: 25px;
+    position: absolute;
+    top: 560px;
+    left: 320px;
+}
+#button4:hover {
+    background: orange;
+}
+#img1{
+    position: absolute;
+    border: 4px solid purple;
+    width: 300px;
+    height: 220px;
+    left: 280px;
+    top: 70px;
+}
+#img2{
+    position: absolute;
+    border: 4px solid purple;
+    width: 300px;
+    height: 150px;
+    left: 750px;
+    top:80px;
+}
+#img3{
+    position: absolute;border: 4px solid purple;
+    width: 250px;
+    left: 750px;
+    top: 320px;
+}
+#img4{
+    position: absolute;
+    border: 4px solid purple;
+    width: 300px;
+    left: 280px;
+    top: 370px;
+}
+

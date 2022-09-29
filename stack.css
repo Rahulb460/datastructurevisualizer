@@ -1,0 +1,99 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0;
+    padding: 0;
+    background: url(https://cdn.wallpapersafari.com/98/5/3F8r1P.jpg);
+    background-size: cover;
+}
+#waste{
+    display: none;
+}
+.container {
+    width: 60%;
+    height: 60%;
+    padding: 30px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(211, 202, 202, 0.9);
+}
+.container1 {
+    width: 30%;
+    height: 45%;
+    padding: 30px;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    border: 2px solid black;
+    transform: translate(-50%, -50%);
+    background: none;
+}
+
+h1 {
+    color: red;
+    padding: 32px 70px;
+    margin: 17px 304px;
+    border-radius: 15px;
+    text-align: center;
+}
+.button {
+    font-family: 'Baloo Bhai 2', cursive;
+     font-weight: bold;
+     font-size: medium;
+     border: 3px solid purple;
+     color:black;
+     cursor: pointer;
+     border-radius: 20px;
+     background: none;
+     margin: 8px auto;
+     padding: 5px 10px;
+     width: 200px;
+     height: 50px;
+     position: relative;
+     top: 10%;
+     left: 60%;
+ }
+  .button:hover {
+     background: rgb(104, 153, 64);
+  }
+  h2{
+    color: purple;
+    text-align: center;
+    top: 30px;
+    padding: 36px 70px;
+    margin: -47px auto;
+  }
+  p{
+    font-weight: bold;
+  }
+  #text {
+    text-align: center;
+    margin: 10px 480px;
+    padding: 17px 5px;
+    user-select: none;
+    height: 8px;
+    width: 215px;
+    border-radius: 5px;
+    border: 2px solid purple;
+    outline: none;
+    font-size: 22px;
+}
+#text:placeholder {
+    font-size: 23px;
+}
+.elements {
+    text-align: center;
+    margin: -2px ;
+    padding: 10px;
+    user-select: none;
+    height: 8px;
+    width: 215px;
+    border-radius: 5px;
+    border: 2px solid purple;
+    outline: none;
+    font-size: 22px;
+}
+.elements:placeholder {
+    font-size: 10px;
+}

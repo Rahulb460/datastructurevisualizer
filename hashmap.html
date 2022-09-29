@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HashMap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hashmap.css">
+</head>
+
+<body>
+    <h1>HashMap Implimentation</h1>
+
+    <div class="container">
+        <h2>How HashMap works</h2>
+        <p>HashMap class implements the Map interface which allows us to store key and value pair, where keys should be
+            unique. If you try to insert the duplicate key, it will replace the element of the corresponding key.</p>
+        <input type="text" placeholder="Key" id="text">
+        <input type="text" placeholder="Value" id="text1">
+        <input type="text" placeholder="Key" id="text2">
+        <input type="text" placeholder="Key" id="text3">
+
+
+        <!-- </div> -->
+
+        <div class="container1">
+            <input type="text" class="elements" placeholder="Key1" id="key1" readonly>
+
+            <input type="text" class="elements" placeholder="Key2" id="key2" readonly>
+
+            <input type="text" class="elements" placeholder="Key3" id="key3" readonly>
+
+            <input type="text" class="elements" placeholder="Key4" id="key4" readonly>
+
+            <input type="text" class="elements" placeholder="Key5" id="key5" readonly>
+
+            <input type="text" class="elements" placeholder="key6" id="key6" readonly>
+
+            <input type="text" class="elements1" placeholder="Value1" id="value1" readonly>
+
+            <input type="text" class="elements1" placeholder="Value2" id="value2" readonly>
+
+            <input type="text" class="elements1" placeholder="Value3" id="value3" readonly>
+
+            <input type="text" class="elements1" placeholder="Value4" id="value4" readonly>
+
+            <input type="text" class="elements1" placeholder="Value5" id="value5" readonly>
+
+            <input type="text" class="elements1" placeholder="Value6" id="value6" readonly>
+        </div>
+
+
+        <div>
+            <button class="button" id="button1" onclick="put()">Put key-value pair</button>
+        </div>
+        <div>
+            <button class="button" id="button2" onclick="getValue()">Get value</button>
+        </div>
+        <div>
+            <button class="button" id="button3" onclick="remove()">Remove key</button>
+        </div>
+
+        <div class="popup21">
+            <div class="popup21-content">
+              <img src="https://png.pngtree.com/png-vector/20190603/ourmid/pngtree-icon-close-button-png-image_1357822.jpg"
+                alt="Close" class="close4">
+              <div>
+                <input type="text" class="input1" placeholder="Your value" id="text4" readonly>
+              </div>
+              <th> 
+                <div id="btn4" class="btn4" onclick="search()">Ok</div>
+              </th>
+            </div>
+          </div>
+    </div>
+
+    <script src="hashmap.js"></script>
+</body>
+
+</html>

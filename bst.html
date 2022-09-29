@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Search Tree</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bst.css">
+</head>
+
+<body>
+    <div class="arrow"><i class="fa-solid fa-arrow-down-left"></i></div>
+    <h1>Binary Search Tree Implimentation</h1>
+
+    <div class="container">
+        <h2>How BST works</h2>
+        <p>A binary Search Tree is a node-based binary tree data structure which has the following properties:</p>
+        <p>1) The left subtree of a node contains only nodes with keys lesser than the node’s key.</p>
+        <p>2) The right subtree of a node contains only nodes with keys greater than the node’s key.</p>
+        <p>3) The left and right subtree each must also be a binary search tree. </p>
+        <p>4) There must be no duplicate nodes.</p>
+
+        <input type="text" placeholder="Enter Value" id="text">
+        <input type="text" placeholder="Enter Value" id="text1">
+
+        <div class="container1">
+            <input type="text" class="elements" placeholder="Root" id="key1" readonly>
+
+            <input type="text" class="elements" placeholder="left" id="key2" readonly>
+
+            <input type="text" class="elements" placeholder="right" id="key3" readonly>
+
+            <input type="text" class="elements" placeholder="left -> left" id="key4" readonly>
+
+            <input type="text" class="elements" placeholder="left -> right" id="key5" readonly>
+
+            <input type="text" class="elements" placeholder="right -> left" id="key6" readonly>
+
+            <input type="text" class="elements" placeholder="right -> right" id="key7" readonly>
+
+            <img src="right.png" id="img1" alt="">
+
+            <img src="right.png" id="img2" alt="">
+
+            <img src="right.png" id="img3" alt="">
+
+            <img src="left.png" id="img4" alt="">
+
+            <img src="left.png" id="img5" alt="">
+
+            <img src="left.png" id="img6" alt="">
+
+           
+
+
+        </div> <!-- closing of container  -->
+
+        <div>
+            <button class="button" id="button1" onclick="insertNode()">Insert Node</button>
+        </div>
+        <div>
+            <button class="button" id="button2" onclick="deleteNode()">Delete Node</button>
+        </div>
+
+
+
+    </div> <!-- closing of container  -->
+
+    <script src="bst.js"></script>
+</body>
+
+</html>
